@@ -66,10 +66,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THE_VIP_BOY")
-                await self.one.join_chat("THE_VIP_BOY_OP")
-                await self.one.join_chat("TG_FRIENDSS")
-                await self.one.join_chat("VIP_CREATORS")
+                await self.one.join_chat("toote_khab")
+                await self.one.join_chat("ME_WIAN")
+                await self.one.join_chat("misu_support")
+                await self.one.join_chat("Misu_updates")
 
             except:
                 pass
@@ -96,10 +96,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("THE_VIP_BOY")
-                await self.two.join_chat("THE_VIP_BOY_OP")
-                await self.two.join_chat("TG_FRIENDSS")
-                await self.two.join_chat("VIP_CREATORS")
+                await self.two.join_chat("ME_WIAN")
+                await self.two.join_chat("Misu_updates")
+                await self.two.join_chat("toote_khab")
+                await self.two.join_chat("misu_support")
             except:
                 pass
             assistants.append(2)
